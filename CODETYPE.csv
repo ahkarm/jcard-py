@@ -1,0 +1,140 @@
+RECID,CODETYPE,CODESUBTYPE,DESCS
+1,STATUS,A,Normal
+2,STATUS,C,Closed
+3,TXSTS,C,Complete
+4,TXSTS,F,Fail
+5,TXSTS,R,Reverse
+6,TXSTS,J,Reject
+7,TXSTS,T,Timeout
+8,TXSTS,P,Pending
+9,STT,C,Complete
+10,STT,F,Fail
+11,TXCODE,DPT_WDR_CSH_OUS,Cash Withdrawal On-US
+12,TXCODE,DPT_WDR_CSH_OFF,Cash Withdrawal Off-US
+13,TXCODE,DPT_WDR_CLS_OUS,Cardless Withdrawal On-US
+14,TXCODE,DPT_WDR_CLS_OFF,Cardless Withdrawal Off-US
+15,TXCODE,DPT_FUD_TRF,Fund Transfer (Same Bank)
+16,TXCODE,DPT_ITB_FUD_TRF,Fund Transfer (InterBank)
+17,TXCODE,DPT_CSH_DPT_ATM,Cash Deposit via ATM
+18,TXCODE,DPT_BILL_PAY,Bill Payment via ATM
+19,TXCODE,DPT_MOB_TOP,Mobile Topup via ATM
+20,TXCODE,DPT_EDC_SALE_OFF,EDC Sale Off-US
+21,TXCODE,DPT_EDC_SALE_OUS,EDC Sale On-US
+22,TXCODE,DPT_POS_SALE_OFF,POS Sale Off-US
+23,TXCODE,DPT_POS_SALE_OUS,POS Sale Off-US
+24,TXCODE,DPT_ECOM_SALE,E-Commerce Sale
+25,TXCODE,DPT_GET_ACCOUNT_INFO,Get Account Information
+26,TXCODE,DPT_GET_ACT_STM,Get Account Statement
+27,TXCODE,DPT_GET_MINI_STM,Get Mini-Statement
+28,TXCODE,DPT_BAL_INQ,Balance Inquiry
+29,TXCODE,DPT_EDC_CSH_BAK,EDC Cash Back
+30,TXCODE,DPT_POS_CSH_BAK,POS Cash Back
+31,TXCODE,DPT_CHG_TIP,Refund Charge/Fee/Tip
+32,TXCODE,DPT_PIN_MGT,Card Pin Management
+33,TXCODE,DPT_GET_CARD_INFO,Get Card Information via Middleware
+34,TXCODE,TRN_RVS,Transaction Reversal
+35,TXCODE,DPT_WDR_CSH_ADV_OUS,Cash Advance Withdrawal On-US
+36,TXCODE,DPT_WDR_CSH_ADV_OFF,Cash Advance Withdrawal Off-US
+37,CARD,D,Debit
+38,CARD,C,Credit
+39,CARD,P,Prepaid
+40,CHANNEL,IB,Internet Banking
+41,CHANNEL,MB,Mobile Banking
+42,CHANNEL,EB,E Banking
+43,CHANNEL,OTC,Domestic Banking
+44,TERMINAL,ATM,ATM
+45,TERMINAL,EDC,EDC
+46,TERMINAL,POS,POS
+47,MTI,0100,Authorization Request
+48,MTI,0110,Authorization Response
+49,MTI,0200,Financial Request
+50,MTI,0210,Financial Response
+51,MTI,0400,Reversal Request
+52,MTI,0410,Reversal Response
+53,PCODE,010000,Purchase
+54,PCODE,000000,Cash Withdrawal
+55,PCODE,020000,Cash Deposit
+56,PCODE,200000,Refund/Reversal
+57,PCODE,300000,Balance Inquiry
+58,PCODE,310000,Mini Statement
+59,PCODE,400000,Fund Transfer
+60,PCODE,420000,Payment
+61,CSHBACKAMT,500000,Cash Back
+62,PCODE,600000,Pin Management
+63,PCODE,700000,Card Maintainence
+64,PCODE,800000,Fee/Charge
+65,PCODE,900000,Settlement
+66,COMCODE,11011,ATM
+67,COMCODE,11012,Mini ATM
+68,COMCODE,11013,EDC
+69,COMCODE,11014,POS
+70,MCC,5411,Grocery Stores & Supermarkets
+71,MCC,5812,Eating Places & Restaurants
+72,MCC,5999,Misc. Retail Stores
+73,MCC,6011,Financial Institutions – ATM
+74,MCC,5541,Service Stations
+75,MCC,4814,Telecommunication Services
+76,MCC,4899,"Cable, Satellite, TV Services"
+77,MCC,5732,Electronics Stores
+78,MCC,4111,Local/Suburban Commuter Transport
+79,MCC,6012,Financial Institutions – Merchandise/Service
+80,MCC,4812,Telecommunication Equipment
+81,MCC,4829,Money Transfer Services
+82,MCC,5814,Fast Food Restaurants
+83,MCC,6300,"Insurance Sales, Underwriting"
+84,MCC,7011,Lodging/Hotels
+85,BILLTYPE,ELECTRIC,Electricity bill
+86,BILLTYPE,WATER,Water supply bill
+87,BILLTYPE,MOBILE,Mobile phone bill
+88,BILLTYPE,INTERNET,Home internet
+89,BILLTYPE,INSURANCE,Insurance premium
+90,BILLTYPE,CREDITCARD,Credit card bill payment
+91,BILLTYPE,LOAN,Loan repayment
+92,BILLTYPE,TAX,Tax payments
+93,BILLTYPE,EDUCATION,"Tuition, school payments"
+94,BILLTYPE,DONATION,Donation payments
+95,BILLTYPE,GOVERNMENT,Government services
+96,BILLTYPE,TV,TV subscription
+97,BILLTYPE,GAME,Game top-up or subscription
+98,BILLTYPE,E-WALLET,e-Wallet top-up
+99,BILLTYPE,OTHER,Any unclassified or miscellaneous bill
+100,DEBIT,201,KDEBIT
+101,DEBIT,202,KMYDEBIT
+102,DEBIT,203,KMAXPLUS
+103,DEBIT,204,KUNIONPAY
+104,DEBIT,205,KPEANUTS
+105,DEBIT,206,KBLACKPINK
+106,DEBIT,207,KIDDEBIT
+107,DEBIT,208,KPLATINUM
+108,DEBIT,209,KTHAICULTURE
+109,DEBIT,210,KSMILE
+110,CREDIT,301,KPLATINUM
+111,CREDIT,302,KPASSION
+112,CREDIT,303,KJCB
+113,CREDIT,304,KTITANIUM
+114,CREDIT,305,KBLUE
+115,CREDIT,306,ONESIAM
+116,CREDIT,307,KSHOPEE
+117,CREDIT,308,KLINE
+118,CREDIT,309,KPOWER
+119,AMT,200,Cash Withdrawl
+120,AMT,500,Cash Withdrawl
+121,AMT,900,Cash Withdrawl
+122,AMT,1500,Cash Withdrawl
+123,AMT,3000,Cash Withdrawl
+124,AMT,5000,Cash Withdrawl
+125,AMT,10000,Cash Withdrawl
+126,TOPUPAMT,50,Mobile Topup
+127,TOPUPAMT,100,Mobile Topup
+128,TOPUPAMT,200,Mobile Topup
+129,TOPUPAMT,500,Mobile Topup
+130,TOPUPAMT,1000,Mobile Topup
+131,CSHBACKAMT,10,Cash Back
+132,CSHBACKAMT,20,Cash Back
+133,CSHBACKAMT,50,Cash Back
+134,CSHBACKAMT,100,Cash Back
+135,CSHBACKAMT,500,Cash Back
+136,CSHBACKAMT,1000,Cash Back
+137,BILLER,AIS,Advanced Info Service
+138,BILLER,TRUE,True Corporation
+139,BILLER,DTAC,Total Access Communication
